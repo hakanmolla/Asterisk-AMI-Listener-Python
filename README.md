@@ -33,16 +33,17 @@ Gelen olaylar MariaDB veritabanına cdr tablosuna yazılacaktır.
 ⚙️ Ayarlar
 Scriptin çalışması için bazı ayarları yapılandırabilirsiniz:
 
-AMI_HOST: Asterisk AMI sunucu adresi veya IP adresi.
-AMI_PORT: Asterisk AMI sunucu portu (genellikle 5038).
-AMI_USERNAME: Asterisk AMI kullanıcı adı.
-AMI_PASSWORD: Asterisk AMI kullanıcı şifresi.
-DB_HOST: MariaDB veritabanı sunucu adresi veya IP adresi.
-DB_PORT: MariaDB veritabanı sunucu portu (genellikle 3306).
-DB_USERNAME: MariaDB veritabanı kullanıcı adı.
-DB_PASSWORD: MariaDB veritabanı kullanıcı şifresi.
-DB_DATABASE: MariaDB veritabanı adı.
-Bu ayarları ami_listener.py dosyasının başında bulunan değişkenleri düzenleyerek yapabilirsiniz.
+- AMI_HOST: Asterisk AMI sunucu adresi veya IP adresi.
+- AMI_PORT: Asterisk AMI sunucu portu (genellikle 5038).
+- AMI_USERNAME: Asterisk AMI kullanıcı adı.
+- AMI_PASSWORD: Asterisk AMI kullanıcı şifresi.
+- DB_HOST: MariaDB veritabanı sunucu adresi veya IP adresi.
+- DB_PORT: MariaDB veritabanı sunucu portu (genellikle 3306).
+- DB_USERNAME: MariaDB veritabanı kullanıcı adı.
+- DB_PASSWORD: MariaDB veritabanı kullanıcı şifresi.
+- DB_DATABASE: MariaDB veritabanı adı.
+B
+u ayarları ami_listener.py dosyasının başında bulunan değişkenleri düzenleyerek yapabilirsiniz.
 
 📄 Lisans
 Bu proje, MIT Lisans altında lisanslanmıştır.
