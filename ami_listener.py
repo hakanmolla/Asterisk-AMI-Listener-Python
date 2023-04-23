@@ -3,15 +3,15 @@ import mariadb
 import socket
 import re
 # Kullanıcı Tanımları Start :
-SERVER_IP = "192.168.0.244"
-AMI_HOST = "192.168.0.244"
-DB_USER = "molla"
-DB_NAME = "asterisk"
+SERVER_IP = "XX.XX.XX.XX"
+AMI_HOST = "XX.XX.XX.X"
+DB_USER = "USERNAME"
+DB_NAME = "DB-NAME"
 DB_PORT= 3306
-DB_PASSWORD = "molla-neyapiyorsun-123456"
+DB_PASSWORD = "DB_PASSWORD"
 AMI_PORT= 5038
-AMI_USER='molla'
-AMI_PASSWORD='molla-123'
+AMI_USER='USERNAME_AMI'
+AMI_PASSWORD='PASSWORD_AMI'
 table_name = "CustemCdrTables"  # tablo adı değişkeni
 # Kullanıcı Tanımları End :
 # MariaDB Bağlantı Bloğu Start 
